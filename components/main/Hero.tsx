@@ -1,6 +1,7 @@
 import React from "react";
 import HeroContent from "../sub/HeroContent";
 import HeroComponent from "@/components/HeroSectionComponent/HeroComponent";
+import MyProject from "@/components/MySkills/MyProject";
 
 const Hero = () => {
   return (
@@ -16,6 +17,7 @@ const Hero = () => {
               </video>
               <HeroContent/>
           </div>
+          <MyProject/>
           <HeroComponent/>
       </section>
 

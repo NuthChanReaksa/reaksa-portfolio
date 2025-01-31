@@ -1,7 +1,6 @@
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
 import Skills from "@/components/MySkills/Skills";
-import MyProject from "@/components/MySkills/MyProject";
 
 const Projects = () => {
   return (
@@ -30,7 +29,7 @@ const Projects = () => {
 
           </div>
         </div>
-          <MyProject/>
+
       </section>
 
   );

@@ -15,31 +15,30 @@ const HeroContent = () => {
       <motion.div
           initial="hidden"
           animate="visible"
-          className="flex flex-col md:flex-row items-center justify-center px-6 sm:px-10 md:px-20 mt-20 sm:mt-40 w-full z-[20]"
+          className="flex flex-col md:flex-row items-center justify-center px-6 sm:px-10 md:px-20 mt-20 w-full z-[20]"
       >
         <div className="h-full w-full flex flex-col gap-5 justify-center text-center sm:text-left">
           <motion.div
               variants={slideInFromTop}
               className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] flex items-center justify-center sm:justify-start"
           >
-            <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
+            <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5"/>
             <h1 className="Welcome-text text-xs sm:text-sm md:text-base text-center sm:text-left max-w-[250px] sm:max-w-none break-words">
               Fullstack Developer & Blockchain & DevOps Engineering
             </h1>
-
           </motion.div>
 
           <motion.div
               variants={slideInFromLeft(0.5)}
               className="flex flex-col gap-6 mt-6 text-4xl sm:text-5xl md:text-6xl font-bold text-white max-w-full sm:max-w-[600px]"
           >
-          <span>
-            Turning
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-500">
-              {" "} visions {" "}
-            </span>
-            into digital reality
-          </span>
+      <span>
+        Turning
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-green-500">
+          {" "} visions {" "}
+        </span>
+        into digital reality
+      </span>
           </motion.div>
 
           <motion.p
@@ -72,6 +71,8 @@ const HeroContent = () => {
           />
         </motion.div>
       </motion.div>
+
+
   );
 };
 

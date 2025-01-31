@@ -5,78 +5,29 @@ import Image from "next/image";
 const data = [
     {
         id: 1,
-        title: "Reaksa",
-        description: "I am me",
+        title: "About Myself",
+        description: "I’m 21 years old, born on November 11, 2002. Currently, I’m studying at ISTAD, where I've completed both basic and advanced full-stack development",
         image:
             "https://scontent.fpnh11-2.fna.fbcdn.net/v/t39.30808-6/475325031_1826402184856420_8857205222670963367_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEGJmM8RR62L8jaYzliszBQTp3EuHseLS5OncS4ex4tLoTx4zLb331abopF6Sz_-gnK4XIhIgM3yq4qmta-7cR4&_nc_ohc=RO2__CtWmCIQ7kNvgF6QCjh&_nc_zt=23&_nc_ht=scontent.fpnh11-2.fna&_nc_gid=A4R2T7TL4rhYGLC4buF7JWi&oh=00_AYAhFoPmy7SirBothrBttHDKTEZLOlBQti-G7bSInXfj3g&oe=67A27045",
     },
     {
         id: 2,
-        title: "Nuth ChanReaksa",
-        description: "Web Developer",
+        title: "Travel Enthusiast",
+        description: "Traveling is a passion of mine, and I love exploring new places. Whether it's the thrill of discovering a new city or the relaxation of a scenic getaway, every trip offers a chance to learn, grow, and experience different cultures.",
         image: "/logoProject/img-sa.jpg"
     },
     {
         id: 3,
-        title: "Jane Smith",
-        description: "UI/UX Designer",
-        image:
-            "https://scontent.fpnh11-2.fna.fbcdn.net/v/t39.30808-6/475325031_1826402184856420_8857205222670963367_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEGJmM8RR62L8jaYzliszBQTp3EuHseLS5OncS4ex4tLoTx4zLb331abopF6Sz_-gnK4XIhIgM3yq4qmta-7cR4&_nc_ohc=RO2__CtWmCIQ7kNvgF6QCjh&_nc_zt=23&_nc_ht=scontent.fpnh11-2.fna&_nc_gid=A4R2T7TL4rhYGLC4buF7JWi&oh=00_AYAhFoPmy7SirBothrBttHDKTEZLOlBQti-G7bSInXfj3g&oe=67A27045",
-    },
-    {
-        id: 4,
-        title: "Mike Johnson",
-        description: "Software Engineer",
-        image:
-            "https://scontent.fpnh11-2.fna.fbcdn.net/v/t39.30808-6/475325031_1826402184856420_8857205222670963367_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEGJmM8RR62L8jaYzliszBQTp3EuHseLS5OncS4ex4tLoTx4zLb331abopF6Sz_-gnK4XIhIgM3yq4qmta-7cR4&_nc_ohc=RO2__CtWmCIQ7kNvgF6QCjh&_nc_zt=23&_nc_ht=scontent.fpnh11-2.fna&_nc_gid=A4R2T7TL4rhYGLC4buF7JWi&oh=00_AYAhFoPmy7SirBothrBttHDKTEZLOlBQti-G7bSInXfj3g&oe=67A27045",
-    },
-    {
-        id: 5,
-        title: "Sarah Williams",
-        description: "Product Manager",
-        image:
-            "https://scontent.fpnh11-2.fna.fbcdn.net/v/t39.30808-6/475325031_1826402184856420_8857205222670963367_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEGJmM8RR62L8jaYzliszBQTp3EuHseLS5OncS4ex4tLoTx4zLb331abopF6Sz_-gnK4XIhIgM3yq4qmta-7cR4&_nc_ohc=RO2__CtWmCIQ7kNvgF6QCjh&_nc_zt=23&_nc_ht=scontent.fpnh11-2.fna&_nc_gid=A4R2T7TL4rhYGLC4buF7JWi&oh=00_AYAhFoPmy7SirBothrBttHDKTEZLOlBQti-G7bSInXfj3g&oe=67A27045",
-    },
-    {
-        id: 6,
-        title: "Emily Davis",
-        description: "Data Scientist",
-        image:
-            "https://scontent.fpnh11-2.fna.fbcdn.net/v/t39.30808-6/475325031_1826402184856420_8857205222670963367_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEGJmM8RR62L8jaYzliszBQTp3EuHseLS5OncS4ex4tLoTx4zLb331abopF6Sz_-gnK4XIhIgM3yq4qmta-7cR4&_nc_ohc=RO2__CtWmCIQ7kNvgF6QCjh&_nc_zt=23&_nc_ht=scontent.fpnh11-2.fna&_nc_gid=A4R2T7TL4rhYGLC4buF7JWi&oh=00_AYAhFoPmy7SirBothrBttHDKTEZLOlBQti-G7bSInXfj3g&oe=67A27045",
-    },
-    {
-        id: 7,
-        title: "Daniel Brown",
-        description: "Cybersecurity Expert",
-        image:
-            "https://scontent.fpnh11-2.fna.fbcdn.net/v/t39.30808-6/475325031_1826402184856420_8857205222670963367_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEGJmM8RR62L8jaYzliszBQTp3EuHseLS5OncS4ex4tLoTx4zLb331abopF6Sz_-gnK4XIhIgM3yq4qmta-7cR4&_nc_ohc=RO2__CtWmCIQ7kNvgF6QCjh&_nc_zt=23&_nc_ht=scontent.fpnh11-2.fna&_nc_gid=A4R2T7TL4rhYGLC4buF7JWi&oh=00_AYAhFoPmy7SirBothrBttHDKTEZLOlBQti-G7bSInXfj3g&oe=67A27045",
-    },
-    {
-        id: 8,
-        title: "Sophia Miller",
-        description: "Cloud Architect",
-        image:
-            "https://scontent.fpnh11-2.fna.fbcdn.net/v/t39.30808-6/475325031_1826402184856420_8857205222670963367_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEGJmM8RR62L8jaYzliszBQTp3EuHseLS5OncS4ex4tLoTx4zLb331abopF6Sz_-gnK4XIhIgM3yq4qmta-7cR4&_nc_ohc=RO2__CtWmCIQ7kNvgF6QCjh&_nc_zt=23&_nc_ht=scontent.fpnh11-2.fna&_nc_gid=A4R2T7TL4rhYGLC4buF7JWi&oh=00_AYAhFoPmy7SirBothrBttHDKTEZLOlBQti-G7bSInXfj3g&oe=67A27045",
-    },
-    {
-        id: 9,
-        title: "James Wilson",
-        description: "Blockchain Developer",
-        image:
-            "https://scontent.fpnh11-2.fna.fbcdn.net/v/t39.30808-6/475325031_1826402184856420_8857205222670963367_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEGJmM8RR62L8jaYzliszBQTp3EuHseLS5OncS4ex4tLoTx4zLb331abopF6Sz_-gnK4XIhIgM3yq4qmta-7cR4&_nc_ohc=RO2__CtWmCIQ7kNvgF6QCjh&_nc_zt=23&_nc_ht=scontent.fpnh11-2.fna&_nc_gid=A4R2T7TL4rhYGLC4buF7JWi&oh=00_AYAhFoPmy7SirBothrBttHDKTEZLOlBQti-G7bSInXfj3g&oe=67A27045",
-    },
-    {
-        id: 10,
-        title: "Olivia Martinez",
-        description: "AI Researcher",
-        image:
-            "https://scontent.fpnh11-2.fna.fbcdn.net/v/t39.30808-6/475325031_1826402184856420_8857205222670963367_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEGJmM8RR62L8jaYzliszBQTp3EuHseLS5OncS4ex4tLoTx4zLb331abopF6Sz_-gnK4XIhIgM3yq4qmta-7cR4&_nc_ohc=RO2__CtWmCIQ7kNvgF6QCjh&_nc_zt=23&_nc_ht=scontent.fpnh11-2.fna&_nc_gid=A4R2T7TL4rhYGLC4buF7JWi&oh=00_AYAhFoPmy7SirBothrBttHDKTEZLOlBQti-G7bSInXfj3g&oe=67A27045",
-    },
+        title: "Football (Soccer)",
+        description: "Football, also known as soccer in some countries, is a team sport played between two teams of eleven players on a field. ",
+        image: "/logoProject/img4.jpg"
+          },
+
 ];
 
 const Page = () => {
     return (
-        <section className="p-5 px-5ls">
+        <section className="px-10 p-5 px-5ls py-16">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
                 {data.map((item) => (
                     <div
@@ -92,7 +43,7 @@ const Page = () => {
                         />
                         <div className="relative p-4">
                             <h1 className="text-xl font-semibold text-white">{item.title}</h1>
-                            <p className="mt-2 text-gray-300">{item.description}</p>
+                            <p className="mt-2 text-gray-300 line-clamp-6">{item.description}</p>
                         </div>
                     </div>
                 ))}
