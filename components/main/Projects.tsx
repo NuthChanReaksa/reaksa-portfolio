@@ -18,20 +18,15 @@ const Projects = () => {
           </h1>
           <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
             <ProjectCard
-                src="/NextWebsite.png"
-                title="Modern Next.js Portfolio"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                src="/logoProject/img.png"
+                title="ISTAD Learning Management System"
+                description="The ISTAD LMS is a platform that provides students and instructors with easy access to course materials, assignments, and exams, streamlining the learning and teaching process."
             />
-            <ProjectCard
-                src="/CardImage.png"
-                title="Interactive Website Cards"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            />
-            <ProjectCard
-                src="/SpaceWebsite.png"
-                title="Space Themed Website"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            />
+              <ProjectCard
+                  src="/logoProject/img2.png"
+                  title="Donate - Donation Platform"
+                  description="iDonate is a platform that verifies the authenticity of donation requests, ensuring trust through an admin approval system for credible organizations, a power by blockchain technology"
+              />
 
           </div>
         </div>

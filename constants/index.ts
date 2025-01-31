@@ -156,7 +156,7 @@ export const SkillData = [
     height: 40,
   },
 ];
-  
+
 export const Socials = [
     {
       name: "Discord",
