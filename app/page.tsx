@@ -15,7 +15,7 @@ export const metadata: Metadata = {
         siteName: "Reaksa Portfolio",
         images: [
             {
-                url: "https://www.cstad.edu.kh/_next/image?url=https%3A%2F%2Flms-api.istad.co%2Fapi%2Fv1%2Fmedias%2Fview%2F3a5b9fed-24f1-4974-ab00-8ff870a77718.png&w=256&q=75",
+                url: "https://reaksa-portfolio.vercel.app/_next/image?url=%2FlogoProject%2Fidonate-logo3.png&w=64&q=75",
                 width: 1200,
                 height: 630,
                 alt: "Portfolio Preview Image",
