@@ -3,6 +3,7 @@ import Encryption from "@/components/main/Encryption";
 import Hero from "@/components/main/Hero";
 import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
+import HeroComponent from "@/components/HeroSectionComponent/HeroComponent";
 
 export const metadata: Metadata = {
     title: "Home - Reaksa Portfolio",
@@ -38,6 +39,7 @@ export default function Home() {
                 <Skills />
                 <Encryption />
                 <Projects />
+
             </div>
         </main>
     );
