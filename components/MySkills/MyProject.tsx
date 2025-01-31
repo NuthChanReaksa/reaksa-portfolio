@@ -12,10 +12,9 @@ const data = [
     },
     {
         id: 2,
-        title: "John Doe",
+        title: "Nuth ChanReaksa",
         description: "Web Developer",
-        image:
-            "https://scontent.fpnh11-2.fna.fbcdn.net/v/t39.30808-6/475325031_1826402184856420_8857205222670963367_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEGJmM8RR62L8jaYzliszBQTp3EuHseLS5OncS4ex4tLoTx4zLb331abopF6Sz_-gnK4XIhIgM3yq4qmta-7cR4&_nc_ohc=RO2__CtWmCIQ7kNvgF6QCjh&_nc_zt=23&_nc_ht=scontent.fpnh11-2.fna&_nc_gid=A4R2T7TL4rhYGLC4buF7JWi&oh=00_AYAhFoPmy7SirBothrBttHDKTEZLOlBQti-G7bSInXfj3g&oe=67A27045",
+        image: "/logoProject/img-sa.jpg"
     },
     {
         id: 3,
